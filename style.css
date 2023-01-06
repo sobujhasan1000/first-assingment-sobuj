@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+/* header area start */
+.header-section{
+    background-image: url(/images/banner/banner3.png);
+    height:700px; 
+}
+.bannar-containt{
+    text-align: right;
+    padding: 200px 100px 200px 600px;
+}
+.bannar-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.bannar-summary{
+    font-weight: 400;
+     font-size: 16px;
+     color: #FFFFFF;
+     margin-top: 10px;
+}
+.btn-primary{
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+/* failires area start */
+.My-previous-year{
+    display: flex;
+    margin: 130px 150px;
+}
+.failures-containt{
+   padding-top: 250px;
+}
+.failures-title{
+    font-weight: 600;
+    font-size: 40px;
+    color: #151414;
+}
+.failures-dis{
+    font-weight: 300;
+    font-size: 16px;
+    color: #151414;
+}
+/* plans area start */
+.plans-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+.palans-items{
+    display: flex;
+    text-align: center;
+    margin: 50px 200px;
+    justify-content: space-around;
+}
+.palans-items h3{
+    font-weight: 600;
+    font-size:20px;
+    margin: 5px;
+}
+/* possitive area start */
+.gried-area{
+    margin: 100px 200px;
+    background-image: url(/images/watch.png);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    border-radius: 8px;
+}
+.gried{
+    padding: 85px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+}
+.possitive-title{
+    font-weight: 600;
+    font-size:30px;
+    color: #FFFFFF;
+}
+.btn-primary{
+    font-weight: 200;
+    font-size:15px;
+    color: #005FAC;
+}
+/* footer area start */
+.footer-area{
+    display: flex;
+    color: white;
+    background-color: #151414;
+}
+.future-title{
+    font-weight: 600;
+    font-size:30px;
+    margin-bottom: 10px;
+}
+.future-area{
+    margin: 120px 200px; 
+}
+.subscrib-area{
+    margin: 120px 200px;
+}
