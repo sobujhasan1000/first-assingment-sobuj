@@ -3,7 +3,7 @@
 }
 /* header area start */
 .header-section{
-    background-image: url(../first-assingment-sobuj/images/banner/banner3.png);
+    background-image: url(/images/banner/banner3.png);
     height:700px; 
 }
 .bannar-containt{
@@ -121,31 +121,21 @@
      font-size: 20px;
      color: #737272;
 }
-/* posative area start */
+/* call area start */
 .gried{
-    background-image: url(../first-assingment-sobuj/images/watch.png);
-    position: relative;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%) ,url(/images/watch.png);
+    display: flex; 
+    height:250px;
+    border-radius: 8px;
+    background-size: cover;
     margin: 100px 200px;
-     display: flex; 
-    height: 200px;
-    border-radius: 8px;
+}
+.call-title{
+    margin-top: 50px ;
+    margin-left: 25px;
     color: #f7fbf5;
-}
-.mind-title{
-    margin: 50px 25px;
-    color: #f7fbf5;
-}
-.color-overlay{
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    opacity: .6;
-}
-.possitive-title{
-    font-weight: 600;
-    font-size:30px;
+    font-size:20px;
+    font-weight: 300px;
 }
 
 /* footer area start */
