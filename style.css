@@ -19,12 +19,14 @@
     font-weight: 400;
      font-size: 16px;
      color: #FFFFFF;
-     margin-top: 10px;
+     margin-top:15px;
 }
 .btn-primary{
     padding: 10px;
     margin-top: 10px;
-    
+    width: 140px;
+    height: 50px;
+    color: #005FAC;
 }
 
 /* project area start */
@@ -81,7 +83,8 @@
     margin: 130px 150px;
 }
 .failures-containt{
-   padding-top: 250px;
+   margin-top: 250px;
+   margin-left: 100px;
 }
 .failures-title{
     font-weight: 600;
@@ -92,9 +95,12 @@
     font-weight: 300;
     font-size: 16px;
     color: #151414;
+    margin-top: 20px;
 }
+
 /* plans area start */
 .plans-title{
+    margin-top: 100px;
     text-align: center;
     font-weight: 600;
     font-size: 40px;
@@ -110,7 +116,12 @@
     font-size:20px;
     margin: 5px;
 }
-/* possitive area start */
+.palans-items p{
+    font-weight: 300;
+     font-size: 20px;
+     color: #737272;
+}
+/* posative area start */
 .gried{
     background-image: url(/images/watch.png);
     position: relative;
@@ -135,11 +146,7 @@
     font-weight: 600;
     font-size:30px;
 }
-.btn-primary{
-    font-weight: 200;
-    font-size:15px;
-    color: #005FAC;
-}
+
 /* footer area start */
 .footer-area{
     display: flex;
@@ -151,8 +158,20 @@
     font-size:30px;
     margin-bottom: 10px;
 }
+.future-dis{
+    font-weight: 400;
+    font-size: 16px;
+}
 .future-area{
     margin: 120px 200px; 
+}
+.sub-title{
+    font-weight: 400;
+     font-size: 25px;
+     margin-bottom: 10px;
+}
+a{
+    margin-left: 10px;
 }
 .subscrib-area{
     margin: 120px 200px;
