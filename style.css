@@ -4,7 +4,7 @@
 }
 /* header area start */
 .header-section{
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(./images/banner/banner3.png);
     height:700px; 
 }
 .bannar-containt{
@@ -78,21 +78,26 @@
     margin-left: 5px;
 }
 
-/* failires area start */
+/* my previous area start */
 .My-previous-year{
     display: flex;
     margin: 130px 150px;
 }
-.failures-containt{
+.previous-containt{
    margin-top: 250px;
    margin-left: 100px;
 }
-.failures-title{
+.previous-title{
     font-weight: 600;
     font-size: 40px;
     color: #151414;
 }
-.failures-dis{
+.chek{ color: greenyellow;}
+
+ul li{
+    list-style: none;
+}
+.previous-dis{
     font-weight: 300;
     font-size: 16px;
     color: #151414;
@@ -124,7 +129,7 @@
 }
 /* call area start */
 .gried{
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%) ,url(/images/watch.png);
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%) ,url(./images/watch.png);
     display: flex; 
     height:250px;
     border-radius: 8px;
