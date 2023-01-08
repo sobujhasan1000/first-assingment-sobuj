@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* header area start */
 .header-section{
@@ -92,9 +93,12 @@
     font-size: 40px;
     color: #151414;
 }
-.chek{ color: greenyellow;}
-
-ul li{
+.chek{ color: greenyellow;
+}
+.chek-list{
+    margin-top:15px;
+}
+.chek-list li{
     list-style: none;
 }
 .previous-dis{
@@ -169,6 +173,9 @@ ul li{
 }
 a{
     margin-left: 10px;
+}
+.input-text{
+    padding: 5px;
 }
 .subscrib-area{
     margin: 120px 200px;
